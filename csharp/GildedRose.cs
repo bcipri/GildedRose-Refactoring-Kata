@@ -4,8 +4,9 @@ namespace csharp
 {
     public class GildedRose
     {
-        IList<Item> Items;
-        public GildedRose(IList<Item> Items)
+        private List<Item> Items;
+
+        public GildedRose(List<Item> Items)
         {
             this.Items = Items;
         }
